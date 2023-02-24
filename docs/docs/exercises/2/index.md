@@ -66,7 +66,7 @@ Place:
 This means that you can work your way outwards from the crowded centers. 
 
 ::: tip
-Refer to the [interactive BOM tool](/public/picogamepad_3_4_0_A.html) to make identifying components easier.
+Refer to the [interactive BOM tool]() to make identifying components easier.
 :::
 
 
@@ -169,7 +169,7 @@ components is correct, or your board will not work!
 
 ::: tip
 The index pin position, including other useful information, can be found with the 
-interactive BOM tool mentioned [earlier](/public/picogamepad_3_4_0_A.html).
+interactive BOM tool mentioned [earlier](/).
 :::
 
 
@@ -188,5 +188,4 @@ position or place and **that the orientation of components is correct!**
 
 <br>
 <br>
-
 
