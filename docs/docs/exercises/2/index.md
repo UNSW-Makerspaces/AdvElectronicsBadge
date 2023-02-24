@@ -189,4 +189,4 @@ position or place and **that the orientation of components is correct!**
 <br>
 <br>
 
-[3]: <micl.dev/public/src/html/picogamepad_3_4_0_A.html> 
+[3]: <https://micl.dev/public/src/html/picogamepad_3_4_0_A> 

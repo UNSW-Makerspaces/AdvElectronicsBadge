@@ -1,8 +1,8 @@
 # Additional Resources
 
  ## Placement Assistant
-<a class="!hover:opacity-100 !no-underline" href="/" target="_blank">
-<ABtn icon="i-bx-file" tag="a" href="/"  variant="light">
+<a class="!hover:opacity-100 !no-underline" href="https://micl.dev/src/html/picogamepad_3_4_0_A" target="_blank">
+<ABtn icon="i-bx-file" tag="a" href="https://micl.dev/src/html/picogamepad_3_4_0_A"  variant="light">
 Open
 </ABtn>
 </a>
