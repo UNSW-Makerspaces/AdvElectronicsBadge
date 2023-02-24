@@ -12,7 +12,7 @@ variant="outline">
 <br>
 
 
-<a class="!hover:opacity-100 !no-underline" href="#notes"><ABtn 
+<a class="!hover:opacity-100 !no-underline" href="#notes" rel="noreferrer" target="_blank"><ABtn 
 class="text-sm my-2" variant="light" href="#notes" tag="a">
 Reflow Soldering</ABtn></a> is a common techique used to attach surface 
 mounted components. It is opposed to more conventional techniques such as "contact soldering" 
