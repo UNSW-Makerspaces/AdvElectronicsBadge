@@ -189,5 +189,5 @@ position or place and **that the orientation of components is correct!**
 <br>
 <br>
 
-[3]:  /public/picogamepad_3_4_0_A.html "Interactive BOM"
+[3]:  "/public/picogamepad_3_4_0_A.html" "Interactive BOM"
 
