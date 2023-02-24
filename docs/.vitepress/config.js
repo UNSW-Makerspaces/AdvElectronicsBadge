@@ -10,7 +10,6 @@ export default defineConfig({
   description: '',
   base:"/ElectronicsInduction/",
   cleanUrls: true,
-  ignoreDeadLinks: true,
   themeConfig: themeConfig(),
 
   markdown: {

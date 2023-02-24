@@ -9,10 +9,6 @@ hero:
     - theme: brand
       text:  Documentation
       link: /docs/
-    - theme: alt
-      text: Board Assistant
-      link: /public/picogamepad_3_4_9_A.html
-
 features:
 - icon: 🛠️
   title: "Feburary 21, 2023 - PicoGamePad v3.4.0 Release Notes"

@@ -1,7 +1,7 @@
 # Additional Resources
 
  ## Placement Assistant
-<a class="!hover:opacity-100 !no-underline" href="/static/picogamepad_3_4_0_A.html">
+<a class="!hover:opacity-100 !no-underline" href="/public/picogamepad_3_4_0_A.html" target="_blank">
 <ABtn icon="i-bx-file" tag="a" href="/public/picogamepad_3_4_0_A.html"  variant="light">
 Open
 </ABtn>
