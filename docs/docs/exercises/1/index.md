@@ -204,9 +204,10 @@ variant="light">
 achieve</AAlert>
 
 :::
-
+<!--
 [1]:  / ""
 [2]:  /exercises/3/ "Induction Part 3"
+
 [3]:  / ""
 [4]:  / ""
 [5]:  / ""
@@ -223,4 +224,4 @@ achieve</AAlert>
 [16]: / ""
 [17]: / ""
 [18]: / ""
-[19]: / ""
+[19]: / ""-->
