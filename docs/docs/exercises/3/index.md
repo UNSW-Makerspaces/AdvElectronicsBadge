@@ -11,10 +11,12 @@ variant="outline">
 <small><center>Animation of reflow stages during heating.</center></small> 
 <br>
 
-
-<a class="!hover:opacity-100 !no-underline" href="#notes" rel="noreferrer" target="_blank"><ABtn 
-class="text-sm my-2" variant="light" href="#notes" tag="a">
-Reflow Soldering</ABtn></a> is a common techique used to attach surface 
+<!-- 
+<a class="!hover:opacity-100 !no-underline" href="#notes" rel="noreferrer" target="_blank">
+-->
+<ABtn 
+class="text-sm my-2" variant="light" >
+Reflow Soldering</ABtn> is a common techique used to attach surface 
 mounted components. It is opposed to more conventional techniques such as "contact soldering" 
 where a soldering iron is used  to heat up solder wire. ontop of a pad and pin, melting the solder
 onto both the pin and the pad. 
