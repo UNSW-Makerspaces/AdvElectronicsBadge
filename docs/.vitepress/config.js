@@ -8,7 +8,7 @@ export default defineConfig({
 
   title: 'Induction Docs', // FIXME
   description: '',
-  base: '/',
+  base:"/ElectronicsInduction/",
   cleanUrls: true,
   themeConfig: themeConfig(),
 
