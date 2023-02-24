@@ -10,8 +10,8 @@ hero:
       text:  Documentation
       link: /docs/
     - theme: alt
-      text: Articles
-      link: /posts/
+      text: Board Assistant
+      link: /public/static/picogamepad_3_4_9_A.html
 
 features:
 - icon: 🛠️
