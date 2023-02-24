@@ -11,12 +11,11 @@ hero:
       link: /docs/
     - theme: alt
       text: Board Assistant
-      link: /public/static/picogamepad_3_4_9_A.html
+      link: /public/picogamepad_3_4_9_A.html
 
 features:
 - icon: 🛠️
   title: "Feburary 21, 2023 - PicoGamePad v3.4.0 Release Notes"
-  link?: /posts/21-02-2023-update
   details: "Documentation release and specification 
            for the v3.2.0-A variant of the PicoGamePad soldering induction exercise"
 ---
