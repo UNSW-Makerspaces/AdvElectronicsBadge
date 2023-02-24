@@ -1,8 +1,8 @@
 # Additional Resources
 
  ## Placement Assistant
-<a class="!hover:opacity-100 !no-underline" href="http://unsw-makerspaces.github.io/ElectronicsInduction/public/picogamepad_3_4_0_A.html" target="_blank">
-<ABtn icon="i-bx-file" tag="a" href="http://unsw-makerspaces.github.io/ElectronicsInduction/public/picogamepad_3_4_0_A.html"  variant="light">
+<a class="!hover:opacity-100 !no-underline" href="/" target="_blank">
+<ABtn icon="i-bx-file" tag="a" href="/"  variant="light">
 Open
 </ABtn>
 </a>
