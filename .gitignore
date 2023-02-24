@@ -9,9 +9,9 @@ dist-ssr
 /coverage
 .nyc_output
 
-.yarn
-yarn.lock
-.yarnrc.yml
+#.yarn
+#yarn.lock
+#.yarnrc.yml
 
 # local env files
 .env
