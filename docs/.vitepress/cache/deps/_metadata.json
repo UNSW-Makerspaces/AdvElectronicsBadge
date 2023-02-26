@@ -1,0 +1,23 @@
+{
+  "hash": "9624e750",
+  "browserHash": "b9a2dc51",
+  "optimized": {
+    "vue": {
+      "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "625949b5",
+      "needsInterop": false
+    },
+    "anu-vue": {
+      "src": "../../../../node_modules/anu-vue/dist/anu-vue.js",
+      "file": "anu-vue.js",
+      "fileHash": "92b09473",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-R647EDCJ": {
+      "file": "chunk-R647EDCJ.js"
+    }
+  }
+}

@@ -167,4 +167,8 @@ SECTION VitePress
     color: hsla(var(--a-base-c), 0.87)
 }
 
+.VPHero .image-src { 
+    max-width: 100% !important;
+}
+
 /* !SECTION */

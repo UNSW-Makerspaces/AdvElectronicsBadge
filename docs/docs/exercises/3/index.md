@@ -1,4 +1,4 @@
-# <AChip class="rounded-0"><h1 color="inherit">Part 3:</h1></AChip> Reflow Soldering
+# Reflow Soldering
 <br> 
 
 <br>

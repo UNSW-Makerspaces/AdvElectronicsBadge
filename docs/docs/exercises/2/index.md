@@ -1,4 +1,4 @@
-# <AChip class="rounded-0"><h1 color="inherit">Part 2:</h1></AChip> Component Placement 
+# Component Placement 
 <br> 
 
 This part of the exercise, is fairly straight forward. The <u>surface mounted</u> components need to 

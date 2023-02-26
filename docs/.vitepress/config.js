@@ -6,12 +6,13 @@ import Container from 'markdown-it-container'
 
 export default defineConfig({
 
-  title: 'Induction Docs', // FIXME
+  title: 'Induction Documentation', // FIXME
   description: '',
   base:"/ElectronicsInduction/",
+  //base: "/",
   cleanUrls: true,
-  themeConfig: themeConfig(),
-
+  
+  // {{{2 markdown: { ... }
   markdown: {
     headers: {
       level: [0, 0],
@@ -44,11 +45,14 @@ export default defineConfig({
         },
       })
     },
-  },
+  }, // }}} 
+
+  themeConfig: themeConfig(),
   vite: viteConfig(),
 
 })
 
+// {{{2 themeConfig()
 function themeConfig() { 
   return({
 
@@ -64,8 +68,9 @@ function themeConfig() {
 
   });
 };
+// }}}
 
-
+// {{{2 viteConfig 
 function viteConfig() { 
   return({
     plugins: [
@@ -84,8 +89,9 @@ function viteConfig() {
 
   });
 } 
+// }}}
 
-
+// {{{2 nav() 
 function nav() {
   return [
     { 
@@ -93,15 +99,19 @@ function nav() {
       items: [
         {
           text: 'Getting Started',
-          link: '/docs/',
+          link: '/docs/getting-started/',
         },
         { 
           text: 'Induction Overview',
-          link: '/docs/getting-started/induction',
+          link: '/docs/getting-started/induction/',
         },
         { 
           text: 'Exercises',
           link: '/docs/exercises/'
+        }, 
+        { 
+          text: 'More...',
+          link: '/docs/more/'
         }
       ]
     },
@@ -116,40 +126,40 @@ function nav() {
     },
   ]
 }
+// }}}
 
+// {{{1 Sidebar routing and configuration 
 function sidebarDocs() {
   return [
+    // {{{2 S1: Getting Started 
     { 
       text: 'Getting Started',
       collapsed: true,
       collapsible: true,
-      link: '/docs/',
+      link: '/docs/getting-started/',
       items: [
         {
           text: 'Makerspace',
-          link: '/docs/getting-started/info',
+          link: '/docs/getting-started/makerspace/',
         },
         {
           text: 'Rules and Safety',
-          link: '/docs/getting-started/safety',
-        },
-        {
-          text: 'Getting Help',
-          link: '/docs/getting-started/help',
+          link: '/docs/getting-started/rules-and-safety/',
         },
         {
           text: 'Induction Overview',
-          link: '/docs/getting-started/induction',
+          link: '/docs/getting-started/induction-overview/',
         },
 
       ]
-    },
+    }, // }}}
+    // {{{2 S2: Exercise Steps
     { 
       text: 'Induction Exercise',
       collapsed: true,
       collapsible: true,
-      link: '/docs/exercises/',
-      items: [
+      link: '/docs/exercises/1/',
+      items: [ // {{{3 Exercise pages 
         {
           text: '1. Board Preparation',
           link: '/docs/exercises/1/',
@@ -170,30 +180,64 @@ function sidebarDocs() {
           text: '5. Board Inspection and Testing',
           link: '/docs/exercises/5/',
         },
-      ],
-    },
+      ], // }}} 
+    }, // }}} 
+    // {{{2 S3: Optional  
     { 
-      text: "Additional Content",
+      text: "Optional Steps",
       collapsed: true, 
-      items: [
+      link: "/docs/optional-steps/",
+      items: [ // {{{3 Optional Steps pages  
         {
-          text: 'Additional Steps (optional)',
-          link: '/docs/extras/additional-steps'
+          text: "Firmware Test",
+          link: "/docs/optional-steps/firmware-test/",
+        },
+        {
+          text: "Gamepad Firmware",
+          link: "/docs/optional-steps/gamepad-firmware/",
+        },
+        {
+          text: "Custom Code",
+          link: "/docs/optional-steps/custom-code/"
+        },
+      ],// }}} 
+    }, // }}}
+    // {{{2 S4: Resources
+    { 
+      text: "Resources, Extras",
+      link: "/docs/more/",
+      collapsed: true, 
+      collapsible: true, 
+      items: [ // {{{3 Resources/Extra pages 
+        {
+          text: "Soldering Examples",
+          link: "/docs/more/solder-examples/",
+        },
+        {
+          text: "Assembly Assistant",
+          link: "/docs/more/htmlbom/",
+        },
+        {
+          text: "Induction GPIO Pinouts",
+          link: "/docs/more/pinouts/",
+        },
+        {
+          text: "Equipment Details",
+          link: "/docs/more/equipment/",
+        },
+        {
+          text: "RP2040 Microcontroller",
+          link: "/docs/more/rp2040/",
         },
         { 
-          text: 'Resources',
-          link: '/docs/extras/resources',
-          collapsed: true, 
-          colapsible: true,
-          items: [ 
-            {
-              text: 'Board Pinouts',
-              link: '/docs/extras/board-pinouts'
-            }
-          ]
+          text: "Files",
+          link: "/docs/more/files/",
+        },
+        {
+          text: "References and Links",
+          link: "/docs/more/references-and-links/",
         }
-      ],
-    },
+      ] // }}}
+    }, // }}}
   ]
-}
-
+} // }}} 

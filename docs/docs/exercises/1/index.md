@@ -1,4 +1,4 @@
-# <AChip class="rounded-0"><h1 color="inherit">Part 1:</h1></AChip> Board Preparation
+# Board Preparation
 
 <br>
 <ACard 
