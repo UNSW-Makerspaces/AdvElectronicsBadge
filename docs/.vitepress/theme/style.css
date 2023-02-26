@@ -87,28 +87,28 @@ SECTION VitePress
 /*
     Enable below style for styled scrollbar
 */
-/* .VPSidebar::-webkit-scrollbar {
+.VPSidebar::-webkit-scrollbar {
     background: rgb(var(--a-layer-c));
     block-size: 8px;
     border-end-end-radius: 14px;
     border-start-end-radius: 14px;
     inline-size: 8px;
-} */
+} 
 
 /* Track */
-/* .VPSidebar::-webkit-scrollbar-track {
+VPSidebar::-webkit-scrollbar-track {
     background: transparent;
-} */
+}
 
 /* Handle */
-/* .VPSidebar::-webkit-scrollbar-thumb {
+.VPSidebar::-webkit-scrollbar-thumb {
     background: hsl(0, 0%, 10%);
     border-radius: 0.5rem;
-} */
+}
 
-/* .VPSidebar::-webkit-scrollbar-corner {
+.VPSidebar::-webkit-scrollbar-corner {
     display: none;
-} */
+}
 
 
 /* ==========================

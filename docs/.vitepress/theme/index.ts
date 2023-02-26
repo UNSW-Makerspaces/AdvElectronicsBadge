@@ -9,11 +9,11 @@ import DefaultTheme from 'vitepress/theme'
 //import { extractFileNameFromPath } from '../../utils'
 import './style.css'
 
+
 export default {
   ...DefaultTheme,
   enhanceApp({ app }) {
 
     app.use(anu);
-    
   },
 }

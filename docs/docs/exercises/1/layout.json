@@ -1,0 +1,20 @@
+{ 
+    text: "Board Preparation",
+    link: "/docs/exercises/1/",
+    collapsible: true,
+    collapsed: true,
+    items:[
+        {
+            text: "Prepare Components",
+            link: "/docs/exercises/1/step1",
+        },
+        {
+            text: "Apply Solderpaste",
+            link: "/docs/exercises/1/step2"
+        },
+        {
+            text: "Inspect",
+            link: "/docs/exercises/1/step3"
+        },
+    ]
+}

@@ -4,6 +4,8 @@ import { defineConfig } from 'vitepress'
 import Unocss from 'unocss/vite'
 import Container from 'markdown-it-container'
 
+
+
 export default defineConfig({
 
   title: 'Induction Documentation', // FIXME
@@ -20,7 +22,7 @@ export default defineConfig({
 
     lineNumbers: process.env.NODE_ENV === 'development',
     theme: 'dracula',
-    config: md => {
+    config: md => { // {{{3 Config, containers
       md.use(Container, 'card', {
         render: (tokens, idx) => {
           const token = tokens[idx]
@@ -44,7 +46,10 @@ export default defineConfig({
           return token.nesting === 1 ? `<template #demo><${demoName} /></template><template #code>` : '</template>\n'
         },
       })
-    },
+
+      md.use(require('markdown-it-footnote'));
+
+    }, // }}} 
   }, // }}} 
 
   themeConfig: themeConfig(),
@@ -160,9 +165,25 @@ function sidebarDocs() {
       collapsible: true,
       link: '/docs/exercises/1/',
       items: [ // {{{3 Exercise pages 
-        {
-          text: '1. Board Preparation',
-          link: '/docs/exercises/1/',
+        { 
+          text: "Board Preparation",
+          link: "/docs/exercises/1/",
+          collapsible: true,
+          collapsed: true,
+          items:[
+            {
+              text: "Prepare Components",
+              link: "/docs/exercises/1/step1",
+            },
+            {
+              text: "Apply Solderpaste",
+              link: "/docs/exercises/1/step2"
+            },
+            {
+              text: "Inspect",
+              link: "/docs/exercises/1/step3"
+            },
+          ]
         },
         {
           text: '2. Component Placement',
