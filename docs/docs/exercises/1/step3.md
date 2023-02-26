@@ -1,3 +1,7 @@
+---
+next: 'Induction Part 2'
+---
+
 ## Common Mistakes 
 
 If solderpaste is applied incorrectly, your reflow attempt may fail or be difficult to complete. 

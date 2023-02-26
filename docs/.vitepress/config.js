@@ -9,9 +9,9 @@ import Container from 'markdown-it-container'
 export default defineConfig({
 
   title: 'Induction Documentation', // FIXME
-  description: '',
-  base:"/ElectronicsInduction/",
-  //base: "/",
+  description: '...',
+  //base:"/ElectronicsInduction/",
+  base: "/",
   cleanUrls: true,
   
   // {{{2 markdown: { ... }

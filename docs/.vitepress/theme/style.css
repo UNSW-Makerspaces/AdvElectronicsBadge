@@ -172,3 +172,6 @@ VPSidebar::-webkit-scrollbar-track {
 }
 
 /* !SECTION */
+footer { 
+    display: contents;
+}
