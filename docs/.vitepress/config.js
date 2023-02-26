@@ -182,7 +182,15 @@ function sidebarDocs() {
         },
         { 
           text: 'Resources',
-          link: '/docs/extras/resources'
+          link: '/docs/extras/resources',
+          collapsed: true, 
+          colapsible: true,
+          items: [ 
+            {
+              text: 'Board Pinouts',
+              link: '/docs/extras/board-pinouts'
+            }
+          ]
         }
       ],
     },
