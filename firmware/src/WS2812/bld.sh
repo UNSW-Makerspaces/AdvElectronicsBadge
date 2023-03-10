@@ -1,0 +1,6 @@
+#!/bin/bash 
+
+PICOGAMEPAD_PROJECT_ROOT=$(pwd)
+source $PICOGAMEPAD_PROJECT_ROOT/env
+GAMEPAD_BUILD_DIR=$(pwd)/build
+cmake -S . -B $GAMEPAD_BUILD_DIR
